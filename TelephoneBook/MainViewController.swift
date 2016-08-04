@@ -20,6 +20,9 @@ class MainViewController: UIViewController,UITableViewDataSource,UITableViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setup()
+        self.tableView.contentInset = UIEdgeInsetsMake(64,0,0,0);
+        self.navigationController?.navigationBarHidden = false
+        self.navigationItem.hidesBackButton = true;
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -85,16 +88,17 @@ class MainViewController: UIViewController,UITableViewDataSource,UITableViewDele
     func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat{
         return 1
     }
-
-    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            
-            let tmpDic = items[indexPath.row]
+    
+    func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {
+        let delete = UITableViewRowAction(style: .Normal, title: "\u{2717}") { (UITableViewRowAction, NSIndexPath) in
+    
+            let tmpDic = self.items[indexPath.row]
             let tmpString = String(tmpDic["Name"] as! String)
             let tmpRef = myRef.child(tmpString)
             tmpRef.removeValue()
-            
         }
+        delete.backgroundColor = UIColor.init(red: 164/255, green: 0, blue: 0, alpha: 1)
+        return [delete]
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -113,8 +117,5 @@ class MainViewController: UIViewController,UITableViewDataSource,UITableViewDele
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.performSegueWithIdentifier("editPersonSegue", sender: indexPath)
     }
-    
-    
-
     
 }

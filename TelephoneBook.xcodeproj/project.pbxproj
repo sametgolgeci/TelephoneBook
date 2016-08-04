@@ -10,6 +10,7 @@
 		387C9EA703978683643CF970 /* Pods_TelephoneBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49927B906DF460BDAE949DD7 /* Pods_TelephoneBookTests.framework */; };
 		4CA4DFEB1D40F6A800827DAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CA4DFEA1D40F6A800827DAA /* GoogleService-Info.plist */; };
 		4CBA30CD1D4B49190041FEE7 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA30CC1D4B49190041FEE7 /* EditViewController.swift */; };
+		4CC9CEAE1D5366C500F8BFF2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9CEAD1D5366C500F8BFF2 /* StartViewController.swift */; };
 		4CD648A71D40BFD300239E9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD648A61D40BFD300239E9C /* AppDelegate.swift */; };
 		4CD648AC1D40BFD300239E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD648AA1D40BFD300239E9C /* Main.storyboard */; };
 		4CD648AE1D40BFD300239E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD648AD1D40BFD300239E9C /* Assets.xcassets */; };
@@ -18,6 +19,12 @@
 		4CD648C71D40BFD300239E9C /* TelephoneBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD648C61D40BFD300239E9C /* TelephoneBookUITests.swift */; };
 		4CD648D71D40C2D000239E9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD648D61D40C2D000239E9C /* MainViewController.swift */; };
 		4CD648D91D40C86900239E9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD648D81D40C86900239E9C /* DetailViewController.swift */; };
+		4CFA5F231D5364020050419D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA5F221D5364020050419D /* Colors.swift */; };
+		4CFA5F251D5364120050419D /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA5F241D5364120050419D /* HolderView.swift */; };
+		4CFA5F281D53642A0050419D /* OvalLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA5F271D53642A0050419D /* OvalLayer.swift */; };
+		4CFA5F2A1D53643E0050419D /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA5F291D53643E0050419D /* RectangleLayer.swift */; };
+		4CFA5F2C1D5364450050419D /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA5F2B1D5364450050419D /* TriangleLayer.swift */; };
+		4CFA5F2E1D5364530050419D /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA5F2D1D5364530050419D /* ArcLayer.swift */; };
 		A20B0F99B409CC6ED438A502 /* Pods_TelephoneBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B906084564F7F73090A390 /* Pods_TelephoneBook.framework */; };
 		F3ED4DAE817F2B97C150A8FC /* Pods_TelephoneBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8CF4444C1FE5CE419ED501 /* Pods_TelephoneBookUITests.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +51,7 @@
 		49927B906DF460BDAE949DD7 /* Pods_TelephoneBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelephoneBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA4DFEA1D40F6A800827DAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CBA30CC1D4B49190041FEE7 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		4CC9CEAD1D5366C500F8BFF2 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		4CD648A31D40BFD300239E9C /* TelephoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelephoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD648A61D40BFD300239E9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD648AB1D40BFD300239E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +66,12 @@
 		4CD648C81D40BFD300239E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD648D61D40C2D000239E9C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4CD648D81D40C86900239E9C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4CFA5F221D5364020050419D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4CFA5F241D5364120050419D /* HolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		4CFA5F271D53642A0050419D /* OvalLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvalLayer.swift; sourceTree = "<group>"; };
+		4CFA5F291D53643E0050419D /* RectangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		4CFA5F2B1D5364450050419D /* TriangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
+		4CFA5F2D1D5364530050419D /* ArcLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
 		5B8CF4444C1FE5CE419ED501 /* Pods_TelephoneBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelephoneBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		792CF65C6C91A1E7E07E34D4 /* Pods-TelephoneBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelephoneBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TelephoneBookTests/Pods-TelephoneBookTests.release.xcconfig"; sourceTree = "<group>"; };
 		84C5704F77F4953F935C49A1 /* Pods-TelephoneBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelephoneBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TelephoneBook/Pods-TelephoneBook.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,9 +138,12 @@
 				4CD648D61D40C2D000239E9C /* MainViewController.swift */,
 				4CD648D81D40C86900239E9C /* DetailViewController.swift */,
 				4CBA30CC1D4B49190041FEE7 /* EditViewController.swift */,
+				4CC9CEAD1D5366C500F8BFF2 /* StartViewController.swift */,
 				4CD648AA1D40BFD300239E9C /* Main.storyboard */,
-				4CD648AD1D40BFD300239E9C /* Assets.xcassets */,
 				4CD648AF1D40BFD300239E9C /* LaunchScreen.storyboard */,
+				4CD648AD1D40BFD300239E9C /* Assets.xcassets */,
+				4CFA5F201D5363A10050419D /* Loader View */,
+				4CFA5F211D5363D80050419D /* Utilities */,
 				4CD648B21D40BFD300239E9C /* Info.plist */,
 				4CA4DFEA1D40F6A800827DAA /* GoogleService-Info.plist */,
 			);
@@ -149,6 +166,34 @@
 				4CD648C81D40BFD300239E9C /* Info.plist */,
 			);
 			path = TelephoneBookUITests;
+			sourceTree = "<group>";
+		};
+		4CFA5F201D5363A10050419D /* Loader View */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA5F261D53641A0050419D /* Layers */,
+				4CFA5F241D5364120050419D /* HolderView.swift */,
+			);
+			name = "Loader View";
+			sourceTree = "<group>";
+		};
+		4CFA5F211D5363D80050419D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA5F221D5364020050419D /* Colors.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		4CFA5F261D53641A0050419D /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA5F271D53642A0050419D /* OvalLayer.swift */,
+				4CFA5F291D53643E0050419D /* RectangleLayer.swift */,
+				4CFA5F2B1D5364450050419D /* TriangleLayer.swift */,
+				4CFA5F2D1D5364530050419D /* ArcLayer.swift */,
+			);
+			name = Layers;
 			sourceTree = "<group>";
 		};
 		5EC055ABA7D93C40801B258C /* Pods */ = {
@@ -437,10 +482,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFA5F251D5364120050419D /* HolderView.swift in Sources */,
+				4CFA5F2A1D53643E0050419D /* RectangleLayer.swift in Sources */,
+				4CFA5F2E1D5364530050419D /* ArcLayer.swift in Sources */,
 				4CBA30CD1D4B49190041FEE7 /* EditViewController.swift in Sources */,
+				4CFA5F2C1D5364450050419D /* TriangleLayer.swift in Sources */,
+				4CC9CEAE1D5366C500F8BFF2 /* StartViewController.swift in Sources */,
+				4CFA5F231D5364020050419D /* Colors.swift in Sources */,
 				4CD648D91D40C86900239E9C /* DetailViewController.swift in Sources */,
 				4CD648A71D40BFD300239E9C /* AppDelegate.swift in Sources */,
 				4CD648D71D40C2D000239E9C /* MainViewController.swift in Sources */,
+				4CFA5F281D53642A0050419D /* OvalLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
