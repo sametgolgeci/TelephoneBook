@@ -13,7 +13,7 @@ class RectangleLayer: CAShapeLayer {
   override init() {
     super.init()
     fillColor = Colors.clear.CGColor
-    lineWidth = 5.0
+    lineWidth = 3.0
     path = rectanglePathFull.CGPath
   }
   
