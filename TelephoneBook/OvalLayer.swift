@@ -1,9 +1,9 @@
 //
 //  OvalLayer.swift
-//  SBLoader
+//  TelephoneBook
 //
-//  Created by Satraj Bambra on 2015-03-19.
-//  Copyright (c) 2015 Satraj Bambra. All rights reserved.
+//  Created by Samet Gölgeci on 04/08/16.
+//  Copyright © 2016 SametGolgeci. All rights reserved.
 //
 
 import UIKit
